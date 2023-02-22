@@ -30,9 +30,9 @@ let under18 = ticketPrice - (ticketPrice / 100) * 20;
 let over65 = ticketPrice - (ticketPrice / 100) * 40;
 
 if (userAge < 18 ) {
-  document.writeln(under18.toFixed(2))
+  document.writeln(under18.toFixed(2) + "€")
 } else if (userAge > 65) {
-  document.writeln(over65.toFixed(2))
+  document.writeln(over65.toFixed(2) + "€")
 } else {
-  document.writeln(ticketPrice.toFixed(2))
+  document.writeln(ticketPrice.toFixed(2) + "€")
 }
